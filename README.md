@@ -81,6 +81,8 @@ Credenciales de acceso
 correo: vip2cars@gmail.com
 contraseña: password
 
-⚠️ Nota Importante:
+### ⚠️ Nota Importante:
 
-La primera vez que accedas al panel de Filament, es posible que el tiempo de carga sea más largo de lo habitual. Esto se debe a que Filament realiza una carga inicial de recursos (como configuraciones y caché) en su primer uso. Sin embargo, después de esta primera carga, el panel funcionará con normalidad y los tiempos de carga se reducirán significativamente en accesos posteriores.
+La primera vez que accedas al **panel de Filament**, es posible que el tiempo de carga sea más largo de lo habitual. Esto se debe a que Filament realiza una **carga inicial de recursos** (como configuraciones y caché) en su primer uso. 
+
+Sin embargo, después de esta primera carga, el panel funcionará con normalidad y los tiempos de carga se reducirán significativamente en accesos posteriores.
