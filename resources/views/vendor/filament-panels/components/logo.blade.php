@@ -1,0 +1,1 @@
+<img src="{{asset('images/brand.webp')}}" alt="logo vid2cars" class="h-12"/>
