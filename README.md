@@ -59,14 +59,14 @@ DB_PORT=3306
 DB_DATABASE=nombre_de_tu_base_de_datos_que_creaste_previamente
 DB_USERNAME=root
 DB_PASSWORD=
-Luego, genera la clave de la aplicación:
+Luego, instala las dependencias y genera la clave de la aplicación:
+4. composer installer (suele demorar unos minutos)
+5. php artisan key:generate
 
-php artisan key:generate
-
-3. Ejecutar migraciones y seeders para crear las tablar y poblar la base de datos
+6. Ejecutar migraciones y seeders para crear las tablar y poblar la base de datos
 php artisan migrate:fresh --seed
 
-4. Levantar el servidor local
+7. Levantar el servidor local
 Abre tu editor de código fuente preferido y ejecuta:
 
 php artisan serve
@@ -81,10 +81,6 @@ Credenciales de acceso
 correo: vip2cars@gmail.com
 contraseña: password
 
-## Vista del Panel Administrativo
+⚠️ Nota Importante:
 
-![Login](https://raw.githubusercontent.com/cdennisor/vip2cars/refs/heads/master/img/login.png
-
-Una vez que ingresas, verás un panel como este:
-
-![Dashboard de Filament](https://raw.githubusercontent.com/cdennisor/vip2cars/refs/heads/master/img/panel.png)
+La primera vez que accedas al panel de Filament, es posible que el tiempo de carga sea más largo de lo habitual. Esto se debe a que Filament realiza una carga inicial de recursos (como configuraciones y caché) en su primer uso. Sin embargo, después de esta primera carga, el panel funcionará con normalidad y los tiempos de carga se reducirán significativamente en accesos posteriores.
