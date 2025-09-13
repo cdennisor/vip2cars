@@ -83,8 +83,8 @@ contraseña: password
 
 ## Vista del Panel Administrativo
 
-![Login](img/login.png)
+![Login](/img/login.png)
 
 Una vez que ingresas, verás un panel como este:
 
-![Dashboard de Filament](img/panel.png)
+![Dashboard de Filament](/img/panel.png)
